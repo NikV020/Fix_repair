@@ -1,0 +1,12 @@
+.repair {
+    background-color: #FFFFFF;
+}
+
+.repair-heading {
+    width: 508px;
+    height: 128px;
+    font-family: 'MullerMedium', sans-serif;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.5px;
+}
