@@ -1,14 +1,28 @@
 .repair {
-    background-color: #FFFFFF;
+    background-color: #fff;
+}
+
+.container {
+    width: 508px;
+}
+
+.repair-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 500px);
+    column-gap: 305px;
 }
 
 .repair-heading {
     width: 508px;
     height: 128px;
-    font-family: 'MullerMedium';
+    font-family: "MullerMedium";
     font-size: 64px;
     line-height: 64px;
     letter-spacing: -0.5px;
+}
+
+.repair-heading+* {
+    margin-top: 27px;
 }
 
 .repair-text {
@@ -17,4 +31,44 @@
     font-size: 21px;
     line-height: 30px;
     letter-spacing: -0.01px;
+}
+
+.repair-text+* {
+    margin-top: 44px;
+}
+
+.repair-btn-row {
+    display: flex;
+    align-items: center;
+}
+
+.repair-btn+* {
+    margin-left: 31px;
+}
+
+.repair-video {
+    position: absolute;
+    width: 940px;
+    height: 920px;
+}
+.repair-video-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.repair-video-btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 21px;
+    line-height: 30px;
+    color: #F9572E;
+}
+.repair-video-object {
+    width: 940px;
+    height: 920px;
 }
