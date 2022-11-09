@@ -26,9 +26,9 @@ body {
 /* Grid элементы сетки на странице*/
 
 .container {
-	width: 990px;
-	padding-left: 15px;
-	padding-right: 15px;
+	position: relative;
+	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
+	height: 100%;
 }
