@@ -1,9 +1,9 @@
 @font-face { 
     font-family: "MullerRegular";
-    src: url("../fonts/MullerRegular/MullerRegular.eot");
-    src: url("../fonts/MullerRegular/MullerRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/MullerRegular/MullerRegular.woff") format("woff"),
-    url("../fonts/MullerRegular/MullerRegular.ttf") format("truetype");
+    src: url("/css/fonts/Muller-Regular/Muller-Regular.eot");
+    src: url("/css/fonts/Muller-Regular/Muller-Regular.eot")format("embedded-opentype"),
+    url("/css/fonts/Muller-Regular/Muller-Regular.woff") format("woff"),
+    url("/css/fonts/Muller-Regular/Muller-Regular.ttf") format("truetype");
     font-style: normal;
     font-weight: 400;
 }

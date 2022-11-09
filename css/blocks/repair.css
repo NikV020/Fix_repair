@@ -5,8 +5,16 @@
 .repair-heading {
     width: 508px;
     height: 128px;
-    font-family: 'MullerMedium', sans-serif;
+    font-family: 'MullerMedium';
     font-size: 64px;
     line-height: 64px;
     letter-spacing: -0.5px;
+}
+
+.repair-text {
+    width: 456px;
+    height: 60px;
+    font-size: 21px;
+    line-height: 30px;
+    letter-spacing: -0.01px;
 }
