@@ -1,9 +1,14 @@
 
 .repair {
-    margin: 20px 21px 20px 106px;
+    margin: 20px 21px 166px 106px;
 }
 
-
+/* .container {
+    position: relative;
+    height: 100%;
+    width: 1880px;
+    
+} */
 
 .repair-row {
     /* display: flex;

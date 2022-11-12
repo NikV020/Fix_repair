@@ -28,7 +28,7 @@ body {
 .container {
 	position: relative;
 	width: 1880px;
-	/* margin-left: auto;
-	margin-right: auto; */
+	margin-left: auto;
+	margin-right: auto;
 	height: 100%;
 }
