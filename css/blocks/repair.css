@@ -136,6 +136,16 @@
     align-items: center;
 }
 
+.repair-btn-row p {
+    width: 143px;
+    height: 24px;
+
+    line-height: 24px;
+    letter-spacing: -0.01px;
+
+    color: #666666;
+}
+
 .repair-btn {
     display: flex;
 }
