@@ -2,21 +2,28 @@
 a.btn {
 	display: inline-block;
 
-	/* height: 51px;
-	line-height: 51px; */
-
+    width: 260px;
 	min-height: 51px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	line-height: 1;
+	line-height: 18px;
 
-	padding-left: 50px;
-	padding-right: 50px;
-	background-color: #01996d;
+	padding-left: 31px;
+	padding-right: 28px;
+	background: #F9572E;
 	color: #fff;
-	font-size: 20px;
-	font-weight: 400;
-	border-radius: 4px;
+    font-family: 'MullerMedium';
+	font-size: 16px;
+    text-align: center;
+	border-radius: 30px;
+    box-shadow: 0px 7px 15px rgba(249, 87, 46, 0.6);
 	transition: opacity 0.2s ease;
+}
+
+.btn:hover,
+a.btn:hover {
+	opacity: 0.8;
+    background: #FF7B59;
+    box-shadow: 0px 15px 20px rgba(249, 87, 46, 0.7);
 }
