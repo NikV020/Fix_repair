@@ -33,22 +33,20 @@
     text-align: center;
 }
 
-.slide-active {
-    
-}
 
 .slide-active-text {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    padding-left: 15px;
-    width: 144px;   
+    text-align: left;
+    margin-left: 14px;
+    width: 145px;
+    height: 60px;   
     font-size: 13px;
     line-height: 20px;
     color: #666666;
 }
 
 .slider {
+    margin-top: 399px;
+    margin-left: 82px;
     display: flex;
     justify-content: space-between;
     width: 73px;
