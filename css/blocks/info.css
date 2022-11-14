@@ -1,7 +1,58 @@
+.info {
+    font-family: 'MullerMedium', sans-serif;
+}
 
-/* 
 .container {
     position: relative;
     width: 990px;
     height: 100%;
-}  */
+} 
+
+.info-title-heading {
+    padding-bottom: 8px;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -0.1px;
+}
+
+.info-subtitle-heading {
+    line-height: 24px;
+    letter-spacing: 0.62px;
+    text-transform: uppercase;
+    color: #33B5A3;
+    padding-bottom: 62.92px;
+}
+
+.info-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 450px);
+    column-gap: 79px;
+}
+
+.info-heading {
+    padding-bottom: 12px;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.05px;
+}
+
+.info-text {
+    padding-bottom: 95.92px;
+    font-family: 'MullerRegular', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.deadline h3 {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.1px;
+}
+
+.deadline h1 {
+    font-size: 64px;
+    line-height: 60px;
+    letter-spacing: -0.5px;
+}
+
