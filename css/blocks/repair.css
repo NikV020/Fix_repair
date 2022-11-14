@@ -3,12 +3,14 @@
     margin: 20px 21px 186px 106px;
 }
 
-/* .container {
+.repair-container {
     position: relative;
-    height: 100%;
-    width: 1880px;
+	width: 1880px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
     
-} */
+}
 
 .repair-row {
     /* display: flex;
