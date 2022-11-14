@@ -21,3 +21,9 @@
     text-transform: uppercase;
     color: #33B5A3;
 }
+
+.interior-wrapper-subtitle {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
