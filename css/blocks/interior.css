@@ -27,20 +27,28 @@
     justify-content: space-between;
     text-align: center;
 }
-/* 
-.slide-active {
 
-} */
+.interior-row {
+    display: flex;
+    text-align: center;
+}
+
+.slide-active {
+    
+}
 
 .slide-active-text {
-    width: 144px;
-    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 15px;
+    width: 144px;   
     font-size: 13px;
     line-height: 20px;
     color: #666666;
 }
 
-.offer-slider {
+.slider {
     display: flex;
     justify-content: space-between;
     width: 73px;
