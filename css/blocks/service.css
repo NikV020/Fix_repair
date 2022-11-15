@@ -1,0 +1,52 @@
+.service-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.service-header p {
+    margin-top: 127px;
+    padding: 11px 15px 7px 21px;
+
+    font-family: 'MullerMedium', sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -0.2px;
+
+    width: 696px;
+    height: 68px;
+    background-color: white;
+
+}
+
+.service-header-wrapper {
+    z-index: -1;
+	position: absolute;
+    width: 984px;
+    height: 647px;
+    margin-top: 160.93px;
+}
+
+.modal {
+    display: flex;
+    padding-top: 41px;
+    padding-left: 308px;
+}
+
+.modal__title {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 51px;
+}
+
+.modal__title p {
+    margin-left: 17px;
+    width: 298px;
+    height: 48px;
+    line-height: 24px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    text-align: left;
+}
