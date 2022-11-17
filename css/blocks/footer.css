@@ -36,6 +36,7 @@
     color: #666666;
 }
 .footer-contacts{
+    margin-top: 76px;
     display: flex;
 }
 
@@ -53,4 +54,35 @@
     line-height: 30px;
     letter-spacing: -0.1px;
     margin-left: 8px;
+}
+
+.footer-street {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-left: 124px;
+}
+
+.footer-street h4 {
+    width: 183px;
+    height: 30px;
+
+    font-size: 21px;
+    line-height: 30px;
+
+    text-align: center;
+    letter-spacing: -0.1px;
+
+}
+
+.footer-street p {
+    width: 133px;
+    height: 24px;
+
+    line-height: 24px;
+
+    text-align: center;
+    letter-spacing: -0.00761905px;
+
+    color: #666666;
 }
