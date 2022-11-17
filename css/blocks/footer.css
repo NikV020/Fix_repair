@@ -35,9 +35,12 @@
     letter-spacing: -0.00761905px;
     color: #666666;
 }
+
 .footer-contacts{
     margin-top: 76px;
+    margin-bottom: 72px;
     display: flex;
+    justify-content: space-between;
 }
 
 
@@ -60,7 +63,7 @@
     display: flex;
     flex-direction: column;
     align-items:center;
-    margin-left: 124px;
+    /* margin-left: 124px; */
 }
 
 .footer-street h4 {
@@ -85,4 +88,35 @@
     letter-spacing: -0.00761905px;
 
     color: #666666;
+}
+
+.footer-mail {
+    display: flex;
+    flex-direction: column;
+}
+
+.mail {
+    /* margin-left: 95px; */
+    display: flex;
+    align-items: center;
+}
+
+.mail p {
+    margin-left: 10px;
+    width: 211px;
+    height: 30px;
+
+    font-size: 21px;
+    line-height: 30px;
+    
+    letter-spacing: -0.1px;
+    
+    /* text-decoration: underline #F9572E; */
+}
+
+.line {
+    margin-left: 40px;
+    width: 211px;
+    background: #F9572E;;
+    border: 2px solid #F9572E;
 }
