@@ -35,9 +35,22 @@
     letter-spacing: -0.00761905px;
     color: #666666;
 }
-
-.footer-call {
+.footer-contacts{
+    display: flex;
 }
+
+
 .telephone {
+    display: flex;
+    align-items: center;
 }
 
+.telephone p {
+    width: 189px;
+    height: 30px;
+
+    font-size: 21px;
+    line-height: 30px;
+    letter-spacing: -0.1px;
+    margin-left: 8px;
+}
