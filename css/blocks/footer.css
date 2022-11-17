@@ -1,6 +1,6 @@
 .footer {
     padding-top: 72px;
-    background: #F2F2F2;
+    background-color: #F2F2F2;
 }
 
 .footer-icons {
@@ -41,6 +41,7 @@
     margin-bottom: 72px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -119,4 +120,30 @@
     width: 211px;
     background: #F9572E;;
     border: 2px solid #F9572E;
+}
+
+.footer-copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer-copyright p {
+    margin-bottom: 30px;
+    width: 146px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.00761905px;
+    color: #666666;
+}
+
+.line-copyright {
+    margin-bottom: 32px;
+    width: 1720px;
+    height: 1px;
+    background-color: #CCCCCC;
+    border: 1px solid #CCCCCC;
 }
