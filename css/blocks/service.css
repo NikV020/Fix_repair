@@ -43,8 +43,7 @@
     display: flex;
     text-align: center;
     align-items: center;
-    margin-left: 67px;
-    padding-bottom: 51px;
+    margin-left: 65px;
 }
 
 .modal-title p {
@@ -57,10 +56,14 @@
     text-align: left;
 }
 
+.modal-subtitle {
+    margin-top: 51px;
+}
+
 .modal-input {
-    display:block;
-    align-items: center;
-    margin: 20px auto 20px auto;
+    /* display:block;
+    align-items: center; */
+    margin-bottom: 29px;
     width: 500px;
     height: 60px;
     border: 1px solid #CCCCCC;
@@ -72,13 +75,13 @@
 }
 
 .btn {
-    margin-top: 48px;
-    margin-left: 65px;
+    margin-top: 18px;
+    margin-left: 125px;
 }
 
 .modal-footer {
     margin-top: 22px;
-    margin-left: 74px;
+    margin-left: 132px;
     width: 235px;
     height: 40px;
     font-size: 13px;
