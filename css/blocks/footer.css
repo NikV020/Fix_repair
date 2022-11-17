@@ -15,6 +15,13 @@
 
 .footer-icons-row a {
     margin-left: 30px;
+    transition: opacity 0.2s ease;
+}
+
+.footer-icons-row a:hover {
+    opacity: 0.8;
+    /* background: #FF7B59; */
+    box-shadow: 0px 30px 20px 5px #FF7B59;
 }
 
 .footer-icons h4 {
