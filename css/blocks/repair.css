@@ -114,6 +114,7 @@
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+
 .repair-video-btn {
     position: absolute;
     left: 50%;
@@ -128,7 +129,7 @@
 }
 
 .repair-video-btn p {
-    margin-top: 19px;
+    padding-top: 19px;
     font-size: 21px;
     line-height: 30px;
     color: #F9572E;

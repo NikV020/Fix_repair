@@ -14,6 +14,11 @@ window.addEventListener('DOMContentLoaded', () => {
       })
     })
   }
+
+
+  /* ================= Slider ========================= */
+  
+  
 })
 
 

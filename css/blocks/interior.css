@@ -54,6 +54,9 @@
     height: 500px;
 }
 
+.slide-active {
+    position: relative;
+}
 
 .slide-active-text {
     text-align: left;
@@ -66,12 +69,12 @@
 }
 
 .slider {
+    position: absolute;
     margin-top: 399px;
     margin-left: 82px;
     display: flex;
     justify-content: space-between;
     width: 73px;
-    height: 44px;
 }
 
 .slide-three {
