@@ -121,8 +121,14 @@
     transform: translate(-50%, -50%);
 }
 
+.repair-video-btn img:hover {
+    transform: scale(1.05);
+    width: 251px;
+    margin-bottom: 3px;
+}
+
 .repair-video-btn p {
-    padding-top: 19px;
+    margin-top: 19px;
     font-size: 21px;
     line-height: 30px;
     color: #F9572E;
