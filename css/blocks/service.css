@@ -87,6 +87,7 @@
 .modal-footer {
     margin-top: 22px;
     margin-left: 132px;
+    margin-bottom: 58px;
     width: 235px;
     height: 40px;
     font-size: 13px;
@@ -97,23 +98,22 @@
 
 .modal-footer a {
     color: #F9572E;
+    
 }
 
-.check {
-    margin-top: 188px;
-    margin-left: 390px;
-}
+
 .check-title {
+    margin-top: 188px;
     margin-bottom: 41px;
+    text-align: center;
 }
-.check-subtitle p {
 
-    width: 275px;
-    height: 48px;
+
+.check-subtitle p {
+    margin-bottom: 345px;
 
     line-height: 24px;
-
-    text-align: center;
     letter-spacing: 0.65px;
     text-transform: uppercase;
+    text-align: center;
 }
