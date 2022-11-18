@@ -30,6 +30,7 @@
     width: 984px;
     height: 647px;
     margin-top: 160.93px;
+    margin-bottom: 134px;
 }
 
 .modal {
@@ -96,4 +97,23 @@
 
 .modal-footer a {
     color: #F9572E;
+}
+
+.check {
+    margin-top: 188px;
+    margin-left: 390px;
+}
+.check-title {
+    margin-bottom: 41px;
+}
+.check-subtitle p {
+
+    width: 275px;
+    height: 48px;
+
+    line-height: 24px;
+
+    text-align: center;
+    letter-spacing: 0.65px;
+    text-transform: uppercase;
 }

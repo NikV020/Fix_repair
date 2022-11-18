@@ -17,7 +17,25 @@ window.addEventListener('DOMContentLoaded', () => {
 
 
   /* ================= Slider ========================= */
+  // function slider ({slide, container, preArrow, nextArrow}) {
+  //   const slides = document.querySelectorAll(slide),
+  //         slider = document.querySelector(container),
+  //         prev = document.querySelector(preArrow),
+  //         next = document.querySelector(nextArrow)
+
+  // }
   
+
+  // slider ({
+  //   slide: '.picture',
+  //   container: '.slide-active',
+  //   preArrow: '.slider-prev',
+  //   nextArrow: '.slider-next'
+  // })
+
+
+  /* ================= Form ========================= */
+
   
 })
 
