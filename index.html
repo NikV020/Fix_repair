@@ -45,7 +45,7 @@
 
             <div class="repair-btn-row">
               <div class="repair-btn">
-                <a href="#form" class="btn">Узнайте о запуске первым</a>
+                <a href="#service" class="btn">Узнайте о запуске первым</a>
               </div>
               <p>Старт весной 2016</p>
             </div>
@@ -189,7 +189,7 @@
   <section  class="service">
     <div class="container">
 
-      <div id="form" class="service-header">
+      <div id="service" class="service-header">
         <p>Узнайте о запуске сервиса первым</p> 
 
         <div class="service-header-wrapper">
@@ -201,15 +201,18 @@
 
       <div class="modal">
 
-        <form action="#">
+        <form id="form" action="#">
           <div class="modal-title">
             <img src="./img/service/door.svg" alt="door">
             <p>Первым 10 клиентам стальная входная дверь в подарок</p> 
           </div>
           <div class="modal-subtitle">
             <input required placeholder="Имя и фамилия*" name="name" type="text" class="modal-input">
-            <input required placeholder="Е-mail адрес*" name="mail" type="e-mail" class="modal-input">
-            <input required placeholder="Телефон" name="phone" type="phone" class="modal-input">
+            <div class="email-wrapper">
+              <!-- <p id="text" class="error">Е-mail адрес*</p> -->
+              <input required placeholder="Е-mail адрес*" id="email" name="mail" type="e-mail" class="modal-input"> 
+            </div>
+            <input placeholder="Телефон" name="phone" type="phone" class="modal-input">
           </div>
 
           <button class="btn service-btn">Подписаться</button>
