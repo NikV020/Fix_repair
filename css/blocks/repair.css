@@ -114,11 +114,21 @@
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+.wrapper-video-btn p {
+    position: absolute;
+    left: 50%;
+    top: 62%;
+    transform: translate(-50%, -50%);
+    font-size: 21px;
+    line-height: 30px;
+    color: #F9572E;
+}
+
 
 .repair-video-btn {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 45%;
     transform: translate(-50%, -50%);
 }
 
@@ -128,12 +138,6 @@
     margin-bottom: 3px;
 }
 
-.repair-video-btn p {
-    padding-top: 19px;
-    font-size: 21px;
-    line-height: 30px;
-    color: #F9572E;
-}
 
 .repair-header-call {
     padding-top: 41px;

@@ -61,14 +61,12 @@
           <div class="repair-video">
             <div class="repair-video-overlay">
 
-
-              <button class="repair-video-btn">
-                <img src="./img/repair/play.svg" alt="Play">
+              <div class="wrapper-video-btn">
                 <p>Смотреть видео</p>
-              </button>
-              <!-- <div class="wrapper-btn">
-                Смотреть видео
-              </div> -->
+                <button class="repair-video-btn">
+                  <img src="./img/repair/play.svg" alt="Play">
+                </button>
+              </div>
 
               <div class="repair-header-call">
                 <a class="phone" href="#contacts">
@@ -210,9 +208,9 @@
             <input required placeholder="Имя и фамилия*" name="name" type="text" class="modal-input">
             <div class="email-wrapper">
               <!-- <p id="text" class="error">Е-mail адрес*</p> -->
-              <input required placeholder="Е-mail адрес*" id="email" name="mail" type="e-mail" class="modal-input"> 
+              <input required placeholder="Е-mail адрес*" id="email" name="mail" type="email" class="modal-input"> 
             </div>
-            <input placeholder="Телефон" name="phone" type="phone" class="modal-input">
+            <input placeholder="Телефон" name="phone" type="number" class="modal-input">
           </div>
 
           <button class="btn service-btn">Подписаться</button>
@@ -239,8 +237,6 @@
 
     </div>
       
-
-    </div>
   </section>
 
   <footer class="footer">
@@ -269,7 +265,7 @@
         <div id="contacts" class="footer-contacts">
 
           <div class="footer-call">
-            <a class="telephone" href="tel:+7 812 903 54 45">
+            <a class="telephone" href="tel:+78129035445">
               <img src="./img/footer/phone.svg" alt="phone">
               <p>+7 (812) 903-54-45</p>
             </a>

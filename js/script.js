@@ -36,6 +36,10 @@ window.addEventListener('DOMContentLoaded', () => {
 
   /* ================= Form ========================= */
 
+  function openCheck(checkSelector) {
+
+  }
+
   function getDinamicInformation() {
 
     const form = document.getElementById('form');
@@ -44,7 +48,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
 
     email.addEventListener('input', () => {
-
+      
       if(email.value.match(pattern)) {
         email.style.border = '1px solid #CCCCCC';
       }else {         
