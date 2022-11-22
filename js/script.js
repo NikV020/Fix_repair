@@ -41,8 +41,6 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 
   function getDinamicInformation() {
-
-    const form = document.getElementById('form');
     const email = document.getElementById('email');
     const error = document.getElementById('text');
     const pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
@@ -51,9 +49,12 @@ window.addEventListener('DOMContentLoaded', () => {
       
       if(email.value.match(pattern)) {
         email.style.border = '1px solid #CCCCCC';
+        error.classList.add('hide');
+        error.classList.remove('show');
       }else {         
         email.style.border = '1px solid #F9572E';
-
+        error.classList.add('show');
+        error.classList.remove('hide');
       }
     })
 
